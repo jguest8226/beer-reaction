@@ -1,0 +1,59 @@
+11:44:10.164 INFO - Selenium build info: version: '3.8.1', revision: '6e95a6684b'
+11:44:10.164 INFO - Launching a standalone Selenium Server
+2018-04-09 11:44:10.248:INFO::main: Logging initialized @323ms to org.seleniumhq.jetty9.util.log.StdErrLog
+11:44:10.279 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+11:44:10.291 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+11:44:10.293 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+11:44:10.294 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:44:10.294 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+11:44:10.294 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+11:44:10.295 INFO - Driver class not found: org.openqa.selenium.phantomjs.PhantomJSDriver
+11:44:10.323 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities {browserName: internet explorer, ensureCleanSession: true, platform: WINDOWS, version: } does not match the current platform MAC
+11:44:10.323 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities {browserName: MicrosoftEdge, platform: WINDOWS, version: } does not match the current platform MAC
+11:44:10.357 INFO - Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+11:44:10.358 INFO - Using `new EdgeOptions()` is preferred to `DesiredCapabilities.edge()`
+11:44:10.358 INFO - Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+11:44:10.359 INFO - Using `new OperaOptions()` is preferred to `DesiredCapabilities.operaBlink()`
+11:44:10.359 INFO - Using `new SafariOptions()` is preferred to `DesiredCapabilities.safari()`
+11:44:10.373 INFO - Using the passthrough mode handler
+2018-04-09 11:44:10.400:INFO:osjs.Server:main: jetty-9.4.7.v20170914
+2018-04-09 11:44:10.423:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@2db7a79b{/,null,STARTING} has uncovered http methods for path: /
+2018-04-09 11:44:10.428:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@2db7a79b{/,null,AVAILABLE}
+2018-04-09 11:44:10.456:INFO:osjs.AbstractConnector:main: Started ServerConnector@67b467e9{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2018-04-09 11:44:10.457:INFO:osjs.Server:main: Started @532ms
+11:44:10.457 INFO - Selenium Server is up and running
+2018-04-09 11:44:10.615:INFO:osjshC.ROOT:qtp1709537756-14: org.openqa.selenium.remote.server.WebDriverServlet-6895a785: Initialising WebDriverServlet
+11:44:10.653 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@33a4cfb1
+11:44:10.657 INFO - /session: Executing POST on /session (handler: BeginSession)
+11:44:10.703 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: E2etest1}
+11:44:10.705 INFO - Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: E2etest1} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1523288650744	geckodriver	INFO	geckodriver 0.19.1
+1523288650750	geckodriver	INFO	Listening on 127.0.0.1:2800
+1523288651105	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/s3/mtd2v6gj3s5gry3ws5c0b58h0000gn/T/rust_mozprofile.nSWdYLj2216l"
+1523288651607	Marionette	INFO	Enabled via --marionette
+2018-04-09 11:44:12.496 plugin-container[18823:818213] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb133, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1523288652874	Marionette	INFO	Listening on port 57209
+11:44:13.074 INFO - Detected dialect: W3C
+11:44:13.138 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7f8ea845
+11:44:13.139 INFO - Handler thread for session 8ca9e19a-6a13-1845-9b86-f7f02cf45528 (firefox): Executing POST on /session/8ca9e19a-6a13-1845-9b86-f7f02cf45528/url (handler: ServicedSession)
+2018-04-09 11:44:13.363 plugin-container[18828:818365] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+11:44:16.510 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7f8ea845
+11:44:16.511 INFO - Handler thread for session 8ca9e19a-6a13-1845-9b86-f7f02cf45528 (firefox): Executing POST on /session/8ca9e19a-6a13-1845-9b86-f7f02cf45528/elements (handler: ServicedSession)
+11:44:16.523 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7f8ea845
+11:44:16.523 INFO - Handler thread for session 8ca9e19a-6a13-1845-9b86-f7f02cf45528 (firefox): Executing GET on /session/8ca9e19a-6a13-1845-9b86-f7f02cf45528/element/ef09d1a1-f770-9644-9ce0-8fdb2c7e10d2/displayed (handler: ServicedSession)
+11:44:16.552 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7f8ea845
+11:44:16.552 INFO - Handler thread for session 8ca9e19a-6a13-1845-9b86-f7f02cf45528 (firefox): Executing POST on /session/8ca9e19a-6a13-1845-9b86-f7f02cf45528/elements (handler: ServicedSession)
+11:44:16.561 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7f8ea845
+11:44:16.561 INFO - Handler thread for session 8ca9e19a-6a13-1845-9b86-f7f02cf45528 (firefox): Executing GET on /session/8ca9e19a-6a13-1845-9b86-f7f02cf45528/element/1f9fb995-dce2-114f-ae3d-32912bf592df/displayed (handler: ServicedSession)
+11:44:16.585 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7f8ea845
+11:44:16.585 INFO - Handler thread for session 8ca9e19a-6a13-1845-9b86-f7f02cf45528 (firefox): Executing POST on /session/8ca9e19a-6a13-1845-9b86-f7f02cf45528/element (handler: ServicedSession)
+11:44:16.596 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7f8ea845
+11:44:16.597 INFO - Handler thread for session 8ca9e19a-6a13-1845-9b86-f7f02cf45528 (firefox): Executing GET on /session/8ca9e19a-6a13-1845-9b86-f7f02cf45528/element/1f9fb995-dce2-114f-ae3d-32912bf592df/text (handler: ServicedSession)
+11:44:16.614 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@7f8ea845
+11:44:16.615 INFO - Handler thread for session 8ca9e19a-6a13-1845-9b86-f7f02cf45528 (firefox): Executing DELETE on /session/8ca9e19a-6a13-1845-9b86-f7f02cf45528 (handler: ServicedSession)
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+11:44:16.708 INFO - Removing session org.openqa.selenium.remote.server.ServicedSession@7f8ea845
